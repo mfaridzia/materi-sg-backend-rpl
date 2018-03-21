@@ -2,7 +2,6 @@
     // variabel
     $nama = "Fulana";
     $umur = 20;
-
     echo "Nama Saya $nama dan umur $umur";
 
     // konstanta
@@ -19,8 +18,9 @@
     $hasilKurang  = $nilai1 - $nilai2;
     $hasilKali    = $nilai1 * $nilai2;
     $hasilBagi    = $nilai1 / $nilai2;
-
     echo "Hasil penjumlahan : $hasilTambah Hasil Pengurangan $hasilKurang Hasil Kali $hasilKali Hasil Bagi $hasilBagi";
+
+    echo "<br/>";
 
     // Percabangan
     if($nilai1 >= $nilai2) {
@@ -41,8 +41,10 @@
     } else {
         echo "ngk ada yng bener!";
     }
+
+    echo "<br/>";
     
-    // switch 
+    // switch case
     switch($nilai) {
         case "B":
         echo "Nilainya B";
@@ -99,7 +101,6 @@
         'negara' => 'indonesia',
         'umur'  => 20
     ];
-
     echo $biodata['nama'];
 
     echo "<br/>";
@@ -121,14 +122,11 @@
 
     echo "<br/>";
 
-    // panggil function
+    // pemanggilan function
     penjumalahan();
 
     echo "<br/>";
 
     sayHello("Fedy","20");
-
-
-
-    
+        
 ?>
