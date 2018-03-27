@@ -17,7 +17,7 @@ if(isset($_POST['login'])) {
 
 ?>
 
-<form action="form.php" method="POST">
+<form action="form_handling.php" method="POST">
     Username : <input type="text" name="username">
     Passwrod: <input type="password" name="password">
     <button type="submit" name="login"> Login </button>
