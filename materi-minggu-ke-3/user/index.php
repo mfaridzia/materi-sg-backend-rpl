@@ -1,9 +1,9 @@
 <?php  
     session_start();
     if(isset($_SESSION['username'])) {
-       echo "ente login sebagai : " . $_SESSION['username'];
+       echo "Anda login sebagai : " . $_SESSION['username'];
      } else {
-        echo "login dulu bro!";
+        echo "Silahkan login terlebih dahulu!";
     }
 
 ?>
