@@ -12,9 +12,9 @@
         <h2> Register </h2>
         <form action="" method="POST">
         <div>
-            <input type="text" name="username" required>
-            <input type="password" name="password" required>
-            <button type="submit" name="register"> Register </button>
+            <input type="text" name="username" required> <br/>
+            <input type="password" name="password" required> <br/>
+            <button type="submit" name="register"> Register </button> <br/>
         </div>
     </form>
     </div>
@@ -31,9 +31,9 @@
 
             $insert = $db->query("INSERT INTO users(username, password, typeuser)VALUES('$user', '$hashPassword', 'user')");
             if($insert) {
-                echo "sukses REGISTER";
+                echo "Berhasil Register!";
             } else {
-                echo "gagal REGISTER";
+                echo "Gagal Register!";
             }
         }
 
