@@ -9,10 +9,10 @@ Materi Study Group Backend Lab RPL & GDC Tel-U 2018
 - Membuat Aplikasi CRUD sederhana dengan PHP & MySQL
 
 ### Meteri Minggu ke-3
-- Membuat Authentiication(Login & Register)
+- Membuat Authentication(Login & Register)
 
 ### Meteri Minggu ke-4
--
+- Tugas Membuat Web Aplikasi *Tema Bebas
 
 ### Meteri Minggu ke-5
 -
