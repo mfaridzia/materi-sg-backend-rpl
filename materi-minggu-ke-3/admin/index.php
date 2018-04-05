@@ -15,7 +15,7 @@
 
     <?php
         //require_once('../config/koneksi.php');
-        echo "ente login sebagai : " . $_SESSION['username'];
+        echo "Anda login sebagai: " . $_SESSION['username'];
     ?>
     
     <a href="logout.php"> Logout </a>
@@ -28,6 +28,6 @@
             header("location:../index.php");
         }
     } else {
-        echo "woy login dulu lah!";
+        echo "Silahkan login terlebih dahulu!";
     }
 ?>
