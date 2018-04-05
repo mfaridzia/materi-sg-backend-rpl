@@ -12,9 +12,9 @@
         <h2> Login </h2>
         <form action="" method="POST">
         <div>
-            <input type="text" name="username" required>
-            <input type="password" name="password" required>
-            <button type="submit" name="login"> Login </button>
+            <input type="text" name="username" required> <br/>
+            <input type="password" name="password" required> <br/>
+            <button type="submit" name="login"> Login </button> <br/>
         </div>
     </form>
     </div>
@@ -31,7 +31,6 @@
             $data  = $query->fetch_array();
 
             if(password_verify($pass, $data['password'])) {
-                // set session nya
                 $_SESSION['typeuser'] = $data['typeuser'];
                 $_SESSION['username'] = $data['username'];
                 if($_SESSION['typeuser'] == 'admin') {
@@ -40,7 +39,7 @@
                     header("location:user/index.php");
                 }
             } else {
-                echo "login gagal!";
+                echo "Login Gagal!;
             }
     
         }
