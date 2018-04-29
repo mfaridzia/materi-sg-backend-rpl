@@ -15,10 +15,7 @@ Materi Study Group Backend Lab RPL & GDC Tel-U 2018
 - Tugas Membuat Web Aplikasi *Tema Bebas
 
 ### Meteri Minggu ke-5
--
+- Pengenalan dasar dasar Nodejs & Express.js
 
 ### Meteri Minggu ke-6
--
-
-### Meteri Minggu ke-7
--
+- Studi kasus membuat aplikasi dengan Express.js
