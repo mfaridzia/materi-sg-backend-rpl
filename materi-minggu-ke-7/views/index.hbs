@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Index Page </title>
+     <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="container">
+        <a href="/" class="navbar-brand">SG Backend RPL</a>
+      </div>
+    </div>
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">SG Backend Heroes</h1>
+        <p class="lead text-muted"> Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet </p>
+        <p>
+          <a href="#" class="btn btn-heroes"> Getting Started </a>
+        </p>
+      </div>
+    </section>
+
+    <div class="album text-muted">
+      <div class="container">
+
+        <div class="row">
+        {{#each items}}
+          <div class="card">
+            <img class="img-fluid" src="{{ image }}" alt="heroes">
+            <p class="card-text">
+              {{ description }}
+            </p>
+            <div class="text-center">
+              <a href="/detail/{{ id }}" class="btn btn-heroes">Lihat Detail</a>
+            </div>
+          </div>
+        {{/each}}
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="text-muted">
+      <div class="container">
+        <center><p>&copy; 2018 SG Backend RPL</p></center>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
